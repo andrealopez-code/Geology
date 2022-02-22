@@ -20,7 +20,7 @@
   left: 50%;
   color: rgb(162, 185, 238);
   transform: translate(-50%, -50%);
-  font-size: 150px;
+  font-size: 10em;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
   }
@@ -30,7 +30,7 @@
     left: 50%;
     color: rgb(195, 149, 233);
     transform: translate(-50%, -50%);
-    font-size: 100px;
+    font-size: 8em;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     }
@@ -53,20 +53,20 @@ h4 {
   border-radius: 10px;
   box-shadow: 0 0 15px rgb(22, 13, 141);
   font-style: italic;
-  font-size: 40px;
+  font-size: 40em;
   text-align: center;
   color: rgb(155, 60, 43);
 }
 
-.rama{
-  
+.rama{  
   max-width: 25%;
   margin: 20px auto;
   padding: 5px 5px 10px;
   border: 1px solid #5eff6b;
   border-radius: 10px;
   box-shadow: 0 0 15px rgb(28, 141, 13);
-  
+  font-style: italic;
+  font-size: 1.3em;  
 }
 
 .conteiner {
