@@ -126,10 +126,10 @@ nav.menu li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 10px 55.25px;
+  padding: 10px 46.7px;
   text-decoration: none;
   font-style: italic;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 nav.menu li a:hover {
@@ -219,4 +219,45 @@ input[type="submit"]{
   border-radius: 5px;
   background-color: rgb(201, 243, 229);   
   font-style: italic;
+}
+
+.menu ul a{
+  display: block;
+  color: black;
+  text-decoration: none;  
+  text-transform: uppercase;  
+}
+
+.menu ul li {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul ul{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgb(167, 167, 167);
+  padding: 0;
+}
+
+.menu ul ul li{
+  float: none;
+  width: 150px;
+}
+
+.menu ul ul a{
+  line-height: 120%;
+  padding: 10px 15px;
+}
+
+.menu ul li:hover{
+  background: rgb(148, 12, 12);
+}
+
+.menu ul li:hover >ul{
+  display: block;
 }
